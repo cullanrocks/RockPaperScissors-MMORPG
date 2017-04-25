@@ -1,0 +1,41 @@
+body {
+
+
+}
+
+.player {
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	height: 350px;
+}
+
+.panel-heading {
+	border-bottom-style: solid;
+	background-color: grey;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+}
+
+.jumbotron {
+	height:  350px;
+}
+
+.panel-body {
+	
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+

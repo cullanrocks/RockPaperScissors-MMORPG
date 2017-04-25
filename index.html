@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Rock Paper Scissors MMORPG</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h1>Rock, Paper, Scissors MMORPG</h1>
+                <br>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="player-ready-div">
+                <form id="user-form" class="text-center">
+                    <label for="user-input" class="text-center">Enter Your Name, Player One: </label>
+                    <br>
+                    <input type="text" id="user-input" class="text-center">
+                    <br>
+                    <br>
+                    <input id="add-usernname" type="submit" value="Submit" class="text-center">
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center" id="player-one-col" class="column">
+                <div class="panel panel-default player text-center" id="player-one-div">
+                    <div class="panel-heading" id="player-one-name">Player One
+                    </div>
+                    <div class="panel-body" id="player-one-choices">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center" id="battle-log-col" class="column">
+                <div class="jumbotron">
+                    TESTING
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center" id="player-two-col" class="column">
+                <div class="panel panel-default player text-center" id="player-two-div">
+                    <div class="panel-heading" id="player-two-name">Player Two
+                    </div>
+                    <div class="panel-body" id="player-two-choices">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="chatbox-div">
+                <form>
+                    <textarea>Type to chat...
+                    </textarea>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+    </div>
+</body>
+
+</html>
